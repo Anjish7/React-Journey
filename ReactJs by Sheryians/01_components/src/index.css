@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  color: wheat;
+  height: 100vh;
+}
+.parent{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+
+  flex-wrap: wrap;
+}
+.card{
+  margin: 12px;
+  background-color: #444;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+p{
+  margin: 10px;
+}
+img{
+  margin-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 140px;
+  height: 140px;
+}
+button{
+  padding: 10px;
+  margin: 8px;
+  color: aliceblue;
+  background-color: #555;
+  border-radius: 5px;
+  border-width: 0px;
+}
