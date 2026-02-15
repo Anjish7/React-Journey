@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Section1 from './components/Section1/Section1'
 
 const users = [
@@ -60,6 +60,7 @@ const users = [
 
 
 function App() {
+
   return (
     <div >
       <Section1 user={users}/>
