@@ -37,6 +37,7 @@ function App() {
             }}
           >
             <input
+              required
               value={title}
               onChange={(e) => {
                 setTitle(e.target.value);
@@ -47,6 +48,7 @@ function App() {
             />
 
             <textarea
+              required
               value={details}
               onChange={(e) => {
                 setDetails(e.target.value);
