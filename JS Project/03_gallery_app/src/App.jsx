@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 import Card from "./components/Card";
-import PrintUserData from "./components/PrintUserData";
+
 
 function App() {
   const [resDate, setResData] = useState([]);
@@ -41,13 +41,13 @@ function App() {
         <button
           className="bg-yellow-600 p-3 rounded-2xl w-15 "
           onClick={() => {
-            {
+
               if (index > 1) {
-                {
+
                   setIndex(index - 1);
-                }
+
               }
-            }
+
           }}
         >
           Prev
@@ -56,9 +56,9 @@ function App() {
         <button
           className="bg-yellow-600 p-3 rounded-2xl w-15 "
           onClick={() => {
-            {
+
               setIndex(index + 1);
-            }
+
           }}
         >
           Next

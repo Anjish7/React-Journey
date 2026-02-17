@@ -1,0 +1,20 @@
+.nav{
+  background-color: aqua;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.link-div{
+  display: flex;
+  justify-content: space-between;
+
+}
+body{
+  background-color: black;
+  height: 100vh;
+}
+h1{
+  color: white;
+  text-align: center;
+  
+}
