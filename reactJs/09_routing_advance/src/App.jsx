@@ -10,13 +10,15 @@ import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Cource from "./pages/Cource";
 import CourceDetails from "./pages/CourceDetails";
+import Navabar2 from "./components/Navabar2";
 
 function App() {
-  
+
 
   return (
     <div className="bg-black h-full ">
       <Navbar />
+      <Navabar2/>
       <Footer />
 
 
